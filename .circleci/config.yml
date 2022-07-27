@@ -16,7 +16,7 @@ jobs:
       - checkout
       - run:
           name: "Say hello"
-          command: "sleep 30"
+          command: "sleep 100"
       - run:
           name: "exit"
           command: "exit 1"
