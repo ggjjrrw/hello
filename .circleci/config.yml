@@ -32,6 +32,9 @@ jobs:
       - run:
           name: "Say hello"
           command: "echo Hello"
+      - run:
+          name: "exit"
+          command: "exit 1"
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
