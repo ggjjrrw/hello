@@ -41,5 +41,7 @@ jobs:
 workflows:
     f1:
       jobs:
-      - say-hello
-      - say-hello2
+        - say-hello
+        - say-hello2:
+            requires:
+              - say-hello
